@@ -312,6 +312,5 @@ func (rp *ReversiPlayer) SetStone(x, y int) error {
 	rp.Rev.CurrentStone = rp.OpponentStone
 	rp.Rev.StoneCount--
 
-	rp.Rev.DisplayBoard()
 	return nil
 }
